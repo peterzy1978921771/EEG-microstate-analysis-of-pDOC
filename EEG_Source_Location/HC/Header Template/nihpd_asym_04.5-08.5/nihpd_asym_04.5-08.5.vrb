@@ -1,0 +1,299 @@
+			Creating Inverse Solution Matrices
+			==================================
+
+			Cartool64  4.11  (7658)
+			2024/04/06  21:17
+
+
+
+	MRIs:
+	-----
+Full Head       MRI file:               C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5_t1w.nii
+Segmented Brain MRI file:               C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5_gm.nii
+
+Correcting Bias Field of Brain MRI:     Yes
+Filtering     MRIs                :     Yes
+Reorienting   MRIs                :     Yes
+Setting origin:                         Middle
+Setting orientation:                    RAS
+Setting best   Sagittal   plane:        Yes
+Setting widest Equatorial plane:        Yes
+
+
+	Electrodes Coordinates:
+	-----------------------
+Electrodes Coordinates file:            C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\ZhenTec.To.nihpd_asym_04.5-08.5_t1w.xyz
+Coregistration to MRI:                  Already coregistered
+
+
+	Grey Matter Mask:
+	-----------------
+Grey Matter Mask is:                    Extracted from Brain
+Grey Matter Mask thickness:             Fat
+Grey Matter Mask shape:                 Asymmetrical
+
+
+	Solution Points:
+	----------------
+Solution Points are:                    Extracted from Grey Matter Mask
+Requested number of Solution Points:    6000
+
+Points final distribution shape:        Asymmetric
+Remove points unfit for LORETA :        Yes
+Remove points unfit for LAURA  :        Yes
+Remove isolated points         :        Yes
+
+
+	Lead Field:
+	-----------
+Lead Field is:                          Computed from Solution Points and Electrodes
+Lead Field Geometrical Model    :       LSMAC (Locally Spherical Model with Anatomical Constraints)
+Lead Field Electromagnetic Model:       Isotropic, N-Shell Model, Exact spherical equations
+Lead Field number of layers     :       6
+
+Targeted species:                       Human
+Targeted age:                           6.0 [Years]
+Skull absolute conductivity:            0.0295 [S/m]
+Compact skull absolute conductivity:    0.0178 [S/m]
+Spongy skull absolute conductivity :    0.0640 [S/m]
+Brain to skull conductivity ratio:      12.29 : 1
+Adjusting skull mean thickness:         Yes
+Targeted skull mean thickness:          4.36 [mm]
+
+Absolute conductivities of each layer:  in [S/m]
+1 (Inner layer)                         0.3625
+2                                       1.7358
+3                                       0.0178
+4                                       0.0640
+5                                       0.0178
+6 (Outer layer)                         0.4137
+
+Outer absolute scalp radius is:         Set by electrode
+Skull absolute thickness is:            Estimated from T1 MRI
+Compact skull absolute thickness is:    Computed from skull thickness
+Spongy skull absolute thickness is:     Computed from skull thickness
+CSF absolute thickness is:              Estimated from T1 MRI
+
+
+	Inverse Solution:
+	-----------------
+Inverse Solution model:                 sLORETA
+Regularization     :                    Yes
+Regularization step:                    Max Eigenvalue ( K.Kt ) / 50000
+Regularization from:                    0
+Regularization to  :                    12
+
+
+	Output Files:
+	-------------
+Verbose File (this):                    6 (Outer layer)
+Complimentary Link Many file:           C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.All.lm
+Complimentary Link Many file:           C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.XYZ.lm
+Complimentary Link Many file:           C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.IS.lm
+Complimentary Link Many file:           C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.RIS.lm
+
+Full head         MRI file:             C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.Head.nii
+Brain             MRI file:             C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.Brain.nii
+Grey  mask        MRI file:             C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.Grey.nii
+
+Skull Thicknesses file:                 C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Thicknesses.sef
+Inner CSF          Layer file:          C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Boundary 1.CSF Inner Layer.xyz
+Inner Skull        Layer file:          C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Boundary 2.Skull Inner Layer.xyz
+Inner Skull Spongy Layer file:          C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Boundary 3.Spongy Skull Inner Layer.xyz
+Outer Skull Spongy Layer file:          C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Boundary 4.Spongy Skull Outer Layer.xyz
+Outer Skull        Layer file:          C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Boundary 5.Skull Outer Layer.xyz
+Outer Scalp        Layer file:          C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Boundary 6.Scalp Outer Layer.xyz
+All layers boundaries file:             C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Boundaries.All Layers.spi
+
+Head Model 3D file:                     C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Head Model.xyz
+
+Solution Points file:                   C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.spi
+
+Electrode Coordinates file:             C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.xyz
+Electrode Coordinates file for display: C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.For Display.xyz
+
+Lead Field file:                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.Lead Field.lf
+Lead Field file:                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Lead Field.ris
+Lead Field file for display:            C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.Lead Field.For Display.sef
+
+Matrix file sLORETA:                    C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.sLORETA.is
+
+Resolution Matrix file sLORETA:         C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5.sLORETA.ResolutionMatrix.PointSpread.ris
+
+Grey mask MRI file, original space:     C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5_gm.Grey.nii
+
+Solution Points file, original space:   C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\头模版 - 副本\nihpd_asym_04.5-08.5\More\nihpd_asym_04.5-08.5_t1w.spi
+
+
+	Piloting processing:
+	--------------------
+Processing is:                          User controlled
+
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+MRI Origin:                             88.00, 123.00, 81.00
+Inverse Geometrical Center:             88.00, 102.71, 83.24
+MRI Origin to Inverse Center:           0.00, 20.29, -2.24
+
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+
+
+	CSF Radii:
+	----------
+
+Electrode                 CSF Inner             CSF Outer             CSF Thick            CSF Inner%            CSF Outer%            CSF Thick%
+____________|____________________________________________________________________________________________________________________________________
+Fp1                           91.24                 91.35                  0.11                 88.53                 88.63                  0.11
+Fp2                           91.77                 91.88                  0.11                 88.59                 88.70                  0.11
+Fz                            84.13                 84.88                  0.75                 87.88                 88.66                  0.78
+F3                            82.22                 82.87                  0.65                 90.20                 90.91                  0.71
+F4                            82.69                 83.87                  1.17                 89.58                 90.85                  1.27
+F7                            80.89                 80.99                  0.10                 93.06                 93.18                  0.12
+F8                            80.72                 80.82                  0.10                 92.37                 92.49                  0.12
+FCz                           74.54                 74.73                  0.19                 81.44                 81.65                  0.21
+FC3                           80.72                 80.82                  0.10                 92.91                 93.03                  0.12
+FC4                           80.89                 80.99                  0.10                 92.61                 92.72                  0.12
+FT7                           71.65                 71.75                  0.10                 87.97                 88.10                  0.12
+FT8                           71.45                 71.55                  0.10                 86.84                 86.96                  0.12
+Cz                            74.58                 74.77                  0.19                 79.01                 79.21                  0.21
+C3                            80.89                 80.99                  0.10                 90.23                 90.34                  0.11
+C4                            81.04                 81.14                  0.10                 90.96                 91.07                  0.11
+T3                            71.91                 72.01                  0.10                 89.45                 89.58                  0.13
+T4                            71.59                 71.69                  0.10                 87.84                 87.97                  0.12
+CPz                           77.23                 83.49                  6.27                 79.13                 85.55                  6.42
+CP3                           84.69                 84.79                  0.10                 89.93                 90.04                  0.11
+CP4                           85.83                 85.93                  0.10                 92.09                 92.20                  0.11
+TP7                           76.84                 76.95                  0.10                 93.36                 93.49                  0.13
+TP8                           76.94                 77.04                  0.10                 94.49                 94.61                  0.13
+Pz                            86.46                 91.15                  4.69                 89.02                 93.86                  4.83
+P3                            87.72                 87.83                  0.11                 91.45                 91.56                  0.11
+P4                            88.90                 89.01                  0.11                 92.64                 92.76                  0.11
+T5                            79.80                 79.91                  0.11                 93.27                 93.39                  0.13
+T6                            79.89                 79.99                  0.11                 94.16                 94.29                  0.13
+Oz                            97.24                 97.35                  0.11                100.00                100.00                  0.12
+O1                            88.13                 89.45                  1.32                 92.43                 93.81                  1.38
+O2                            87.38                 89.53                  2.15                 92.09                 94.35                  2.27
+Median                        80.89                 81.07                  0.11                 90.59                 91.32                  0.12
+Sn                             6.43                  6.76                  0.01                  3.54                  3.49                  0.02
+
+
+	Skull Radii:
+	------------
+
+Electrode               Skull Inner           Skull Outer           Skull Thick          Skull Inner%          Skull Outer%          Skull Thick%
+____________|____________________________________________________________________________________________________________________________________
+Fp1                           91.35                 99.69                  8.34                 88.63                 96.72                  8.09
+Fp2                           91.88                100.79                  8.91                 88.70                 97.30                  8.60
+Fz                            84.88                 93.89                  9.01                 88.66                 98.07                  9.41
+F3                            82.87                 89.48                  6.61                 90.91                 98.15                  7.25
+F4                            83.87                 92.77                  8.90                 90.85                100.00                  9.64
+F7                            80.99                 84.95                  3.96                 93.18                 97.73                  4.55
+F8                            80.82                 84.63                  3.81                 92.49                 96.85                  4.36
+FCz                           74.73                 90.04                 15.31                 81.65                 98.39                 16.73
+FC3                           80.82                 85.63                  4.81                 93.03                 98.57                  5.54
+FC4                           80.99                 85.72                  4.73                 92.72                 98.14                  5.41
+FT7                           71.75                 76.12                  4.37                 88.10                 93.46                  5.37
+FT8                           71.55                 75.90                  4.35                 86.96                 92.25                  5.29
+Cz                            74.77                 90.09                 15.32                 79.21                 95.45                 16.23
+C3                            80.99                 83.67                  2.68                 90.34                 93.33                  2.99
+C4                            81.14                 84.45                  3.31                 91.07                 94.79                  3.72
+T3                            72.01                 76.40                  4.39                 89.58                 95.04                  5.46
+T4                            71.69                 75.59                  3.90                 87.97                 92.75                  4.79
+CPz                           83.49                 83.62                  0.12                 85.55                 85.68                  0.13
+CP3                           84.79                 87.56                  2.77                 90.04                 92.97                  2.94
+CP4                           85.93                 87.51                  1.58                 92.20                 93.90                  1.70
+TP7                           76.95                 80.94                  3.99                 93.49                 98.34                  4.85
+TP8                           77.04                 77.63                  0.59                 94.61                 95.34                  0.73
+Pz                            91.15                 91.28                  0.13                 93.86                 93.99                  0.13
+P3                            87.83                 87.95                  0.13                 91.56                 91.69                  0.13
+P4                            89.01                 89.13                  0.13                 92.76                 92.89                  0.13
+T5                            79.91                 84.06                  4.15                 93.39                 98.24                  4.85
+T6                            79.99                 80.61                  0.61                 94.29                 95.01                  0.72
+Oz                            97.35                103.63                  6.28                100.00                100.00                  6.55
+O1                            89.45                103.77                 14.32                 93.81                100.00                 15.02
+O2                            89.53                102.90                 13.37                 94.35                100.00                 14.09
+Median                        81.07                 86.62                  4.25                 91.32                 96.08                  5.07
+Sn                             6.76                  7.52                  3.80                  3.49                  3.48                  4.02
+
+
+	Spongy skull Radii:
+	-------------------
+
+Electrode        Spongy skull Inner    Spongy skull Outer    Spongy skull Thick   Spongy skull Inner%   Spongy skull Outer%   Spongy skull Thick%
+____________|____________________________________________________________________________________________________________________________________
+Fp1                           92.95                 97.54                  4.59                 90.19                 94.64                  4.45
+Fp2                           93.59                 98.49                  4.90                 90.36                 95.08                  4.73
+Fz                            86.61                 91.57                  4.95                 90.47                 95.64                  5.18
+F3                            84.33                 88.51                  4.18                 92.51                 97.10                  4.59
+F4                            85.77                 91.21                  5.44                 92.91                 98.81                  5.90
+F7                            81.99                 84.61                  2.62                 94.33                 97.34                  3.01
+F8                            81.82                 83.29                  1.46                 93.64                 95.31                  1.68
+FCz                           77.13                 86.82                  9.69                 84.28                 94.87                 10.59
+FC3                           81.82                 84.29                  2.47                 94.18                 97.02                  2.84
+FC4                           81.99                 84.38                  2.39                 93.87                 96.60                  2.73
+FT7                           72.75                 74.78                  2.03                 89.33                 91.82                  2.49
+FT8                           72.55                 74.56                  2.01                 88.17                 90.61                  2.44
+Cz                            77.17                 86.87                  9.70                 81.76                 92.03                 10.28
+C3                            81.99                 82.33                  0.34                 91.45                 91.84                  0.38
+C4                            82.14                 83.11                  0.97                 92.20                 93.29                  1.09
+T3                            73.01                 75.05                  2.04                 90.82                 93.37                  2.54
+T4                            72.69                 74.25                  1.56                 89.19                 91.11                  1.91
+CPz                           83.50                 83.61                  0.12                 85.56                 85.68                  0.12
+CP3                           85.79                 86.22                  0.42                 91.10                 91.55                  0.45
+CP4                           86.56                 86.67                  0.12                 92.87                 93.00                  0.13
+TP7                           77.95                 79.60                  1.65                 94.70                 96.71                  2.01
+TP8                           77.24                 77.36                  0.12                 94.86                 95.01                  0.14
+Pz                            91.16                 91.27                  0.12                 93.86                 93.98                  0.12
+P3                            87.83                 87.95                  0.12                 91.57                 91.69                  0.12
+P4                            89.01                 89.13                  0.12                 92.76                 92.88                  0.12
+T5                            80.91                 82.72                  1.81                 94.56                 96.67                  2.11
+T6                            80.21                 80.32                  0.12                 94.54                 94.68                  0.14
+Oz                            98.75                102.75                  4.00                100.00                100.00                  4.18
+O1                            91.85                101.55                  9.70                 96.33                100.00                 10.17
+O2                            91.93                100.68                  8.75                 96.88                100.00                  9.23
+Median                        82.07                 85.41                  2.02                 92.64                 94.77                  2.47
+Sn                             6.43                  7.21                  2.28                  3.15                  3.55                  2.81
+
+
+	Scalp Radii:
+	------------
+
+Electrode               Scalp Inner           Scalp Outer           Scalp Thick          Scalp Inner%          Scalp Outer%          Scalp Thick%
+____________|____________________________________________________________________________________________________________________________________
+Fp1                           99.69                103.06                  3.38                 96.72                100.00                  3.28
+Fp2                          100.79                103.58                  2.80                 97.30                100.00                  2.70
+Fz                            93.89                 95.74                  1.85                 98.07                100.00                  1.93
+F3                            89.48                 91.16                  1.00                 98.15                100.00                  1.10
+F4                            92.77                 92.32                  1.00                100.00                100.00                  1.08
+F7                            84.95                 86.92                  1.00                 97.73                100.00                  1.15
+F8                            84.63                 87.39                  2.75                 96.85                100.00                  3.15
+FCz                           90.04                 91.52                  1.48                 98.39                100.00                  1.61
+FC3                           85.63                 86.88                  1.25                 98.57                100.00                  1.43
+FC4                           85.72                 87.35                  1.63                 98.14                100.00                  1.86
+FT7                           76.12                 81.44                  5.32                 93.46                100.00                  6.54
+FT8                           75.90                 82.28                  6.38                 92.25                100.00                  7.75
+Cz                            90.09                 94.39                  4.30                 95.45                100.00                  4.55
+C3                            83.67                 89.65                  5.98                 93.33                100.00                  6.67
+C4                            84.45                 89.09                  4.64                 94.79                100.00                  5.21
+T3                            76.40                 80.39                  3.99                 95.04                100.00                  4.96
+T4                            75.59                 81.50                  5.91                 92.75                100.00                  7.25
+CPz                           83.62                 97.59                 13.98                 85.68                100.00                 14.32
+CP3                           87.56                 94.18                  6.62                 92.97                100.00                  7.03
+CP4                           87.51                 93.20                  5.69                 93.90                100.00                  6.10
+TP7                           80.94                 82.31                  1.37                 98.34                100.00                  1.66
+TP8                           77.63                 81.43                  3.79                 95.34                100.00                  4.66
+Pz                            91.28                 97.12                  5.84                 93.99                100.00                  6.01
+P3                            87.95                 95.92                  7.97                 91.69                100.00                  8.31
+P4                            89.13                 95.96                  6.82                 92.89                100.00                  7.11
+T5                            84.06                 85.56                  1.50                 98.24                100.00                  1.76
+T6                            80.61                 84.84                  4.23                 95.01                100.00                  4.99
+Oz                           103.63                 95.83                  1.00                100.00                100.00                  1.04
+O1                           103.77                 95.36                  1.00                100.00                100.00                  1.05
+O2                           102.90                 94.89                  1.00                100.00                100.00                  1.05
+Median                        86.62                 91.34                  3.59                 96.08                100.00                  3.92
+Sn                             7.52                  7.57                  3.20                  3.48                  0.00                  3.62

@@ -1,0 +1,169 @@
+			Computing Results of Inverse Solution
+			=====================================
+
+			Cartool64  4.11  (7658)
+			2024/04/07  14:56
+
+
+
+	Data Preprocessing:
+	-------------------
+Spatial Filter:                         No Spatial Filter
+
+
+	Inverse Processing:
+	-------------------
+Preset:                                 Resting States        - Clusters from Fitting output
+
+Inverse Matrix:                         C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\头模版 - 副本\nihpd_asym_04.5-08.5\nihpd_asym_04.5-08.5.sLORETA.is
+Regularization level:                   Global Optimal Regularization
+
+Type of input data:                     Spontaneous EEG
+Final data type:                        Positive Data (Norm of Vectors)
+
+Centroids method:                       Median Centroid
+Centroids data type:                    Positive Data (Norm of Vectors)
+Centroids Polarity test:                Not relevant
+Centroids ranking:                      Yes
+Centroids normalization:                No
+
+
+	Inverse Postprocessing:
+	-----------------------
+Standardizing results:                  Computing Standardization Factors
+Standardization method:                 Z-Score ( positive data ), then offset of 3 sigma
+
+Envelope of results:                    No
+
+Applying ROIs:                          No
+
+
+	Input Files:
+	------------
+Number of groups of input files:        4
+One group of files contains:            All Subjects, 1 Condition
+
+Number of subjects:                     15
+Number of conditions:                   4
+
+Condition #:                            1
+Number of files:                        15
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub05.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub06.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub08.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub09.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub12.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub13.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub19.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub21.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub26.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub30.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub34.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub36.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub38.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub42.Cluster01.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub44.Cluster01.sef
+
+Condition #:                            2
+Number of files:                        15
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub05.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub06.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub08.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub09.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub12.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub13.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub19.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub21.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub26.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub30.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub34.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub36.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub38.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub42.Cluster02.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub44.Cluster02.sef
+
+Condition #:                            3
+Number of files:                        15
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub05.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub06.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub08.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub09.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub12.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub13.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub19.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub21.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub26.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub30.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub34.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub36.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub38.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub42.Cluster03.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub44.Cluster03.sef
+
+Condition #:                            4
+Number of files:                        15
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub05.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub06.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub08.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub09.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub12.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub13.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub19.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub21.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub26.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub30.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub34.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub36.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub38.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub42.Cluster04.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub44.Cluster04.sef
+
+
+	Output Files:
+	-------------
+Saving every individual ris files:      No
+Saving every epoch ris files:           No
+Computing each groups' averages:        No
+Computing each groups' centroids:       Yes
+Saving standardization factors files:   Yes
+
+Verbose file (this):                    C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Computing RIS.vrb
+
+Writing standardization factors files:  C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub05.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub05.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub06.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub06.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub08.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub08.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub09.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub09.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub12.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub12.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub13.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub13.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub19.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub19.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub21.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub21.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub26.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub26.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub30.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub30.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub34.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub34.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub36.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub36.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub38.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub38.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub42.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub42.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub44.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.sef
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Fit GC RSWhole sub.04.(04).sub44.Cluster01.sLORETA 6002 RGS.ZScorePO.ZScoreFactors.ris
+
+Centroids files:                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Centroids.Cond 1.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Centroids.Cond 2.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Centroids.Cond 3.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Centroids.Cond 4.ris
+                                        C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组3\Data Clusters - 副本\Centroids.Subj Mean.ris
+
+

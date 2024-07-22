@@ -1,0 +1,34 @@
+将Add libsvm-3.31 to matlab's search path
+
+%Parameters in the model
+% 1.model.Parameters has 5 variables  
+% -s svm type default 0
+% -t kernel function type default 2
+% -d degree for polynomial functions, default 3
+% -g The default value of the gamma parameter in the kernel function is 1/k, where k is the number of attributes.
+% -r kernel function coef0 for polynomial sig kernel function default 0
+% 
+% 2.model.Label model.nr_class
+% model.Label represents the label of the data 
+% model.nr_class indicates the number of classes  
+% 
+% 3.model.totalSV model.nSV
+% model.totalSV represents the total number of support vectors 
+% model.nSV represents the number of support vectors for each class of samples. The order corresponds to model.Label
+%  
+% 4.model.sv_coef model.SVs model.rho
+% model.sv_coef is the coefficient of the support vector in the decision function
+% model.SVs are support vectors
+% model.rho is the inverse of the constant term of the decision function
+
+%% cmd Parameter Description
+% %Classification
+% cmd = [' -t 2',' -c ',num2str(bestc),' -g ',num2str(bestg)];
+% %return
+% cmd = [' -t 2',' -c ',num2str(bestc),' -g ',num2str(bestg),' -s 3 -p 0.01'];
+% %See more in Neural Network 43 Examples
+% % s SVM model setting type: default is 0. If it is regression, select 3 or 4.
+% % -t kernel function type: 0 linear 1 polynomial 2 RBF kernel function 3 sigmoid kernel function 
+% % -d degree parameter setting in the degree kernel function (for polynomial kernel function, default is 3)
+% % -g r kernel function gamma parameter: for polynomial rbf/sigmoid
+% % -p SVR loss function value default 0.01

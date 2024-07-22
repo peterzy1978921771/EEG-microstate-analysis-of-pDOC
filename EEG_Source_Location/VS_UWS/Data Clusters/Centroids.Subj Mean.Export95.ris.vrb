@@ -1,0 +1,67 @@
+			Export Tracks
+			=============
+
+			Cartool64  4.11  (7658)
+			2024/04/07  10:08
+
+
+
+	Files:
+	------
+Input   File         :                  C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\Data Clusters - 副本\Centroids.Subj Mean.ris
+Output  File         :                  C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\Data Clusters - 副本\Centroids.Subj Mean.Export95.ris
+Verbose File (this)  :                  C:\Users\vipuser\Desktop\zyDoCCartool - result\源定位\组1\Data Clusters - 副本\Centroids.Subj Mean.Export95.ris.vrb
+
+Using electrode names from file:        No
+Using ROIs            from file:        No
+
+
+	Exporting:
+	----------
+Type of export:                         Tracks
+Number of tracks:                       6002
+Track names:                            sp1-sp6002
+
+
+	Input Time Period:
+	------------------
+Input time range defined by:            Interval
+From      Time Frame :                  0
+To        Time Frame :                  3
+Number of Time Frames:                  4
+
+
+	Processing Parameters:
+	----------------------
+Data type:                              Positive Data
+
+Filters:                                Threshold showing Above 0.95
+
+Reference:                              No reference, as in file
+
+Baseline correction:                    No
+
+Rescaling:                              No
+
+
+	Output Time:
+	------------
+Output time is:                         Sequential
+Number of output Time Frames:           4
+
+Time downsampling:                      No
+
+
+	Processing Summary:
+	-------------------
+Data are processed according to this sequence (& depending on user's choice):
+
+    * Reading data from file
+    * Filtering
+    * Applying new reference
+    * Applying baseline correction
+    * Rescaling data levels
+    * Time downsampling, or computing time average
+    * Computing ROIs
+
+
