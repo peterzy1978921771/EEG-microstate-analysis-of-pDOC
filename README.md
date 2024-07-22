@@ -1,4 +1,4 @@
-# EEG-microstate-analysis-of-pDOC
+# EEG-microstate-analysis-of-pDoC
 The result of 'EEG microstate analysis in children with prolonged disorders of consciousness'
 This project is divided into three parts:
 
