@@ -1,4 +1,4 @@
-将Add libsvm-3.31 to matlab's search path
+Add libsvm-3.31 to matlab's search path
 
 %Parameters in the model
 % 1.model.Parameters has 5 variables  
